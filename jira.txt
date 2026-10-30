@@ -1,5 +1,0 @@
-docker run -it -v "./jira":/jira -p 8099:2990 -w /jira atlassian/jira-software /bin/bash
-
-export PATH=$PATH:/jira/atlassian-plugin-sdk-9.11.2/bin
-cd trock-like-timetracking
-atlas-mvn jira:run
